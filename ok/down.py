@@ -103,6 +103,9 @@ if __name__ == '__main__':
     print u'***************妹子图一共有 %d 页******************' % pages
     if not os.path.exists('MeiZiTu'):
         os.mkdir('MeiZiTu')
+    else:
+        os.remove('MeiZiTu')
+        os.mkdir('MeiZiTu')
     page_start = input(u'Input the first page number:\n')
     page_end = input(u'Input the last page number:\n')
     if page_end > page_start:
