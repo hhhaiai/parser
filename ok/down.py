@@ -1,5 +1,5 @@
 #  -*- coding: utf-8 -*- 
-import urllib2, os, os.path, urllib, random
+import urllib2, os, urllib, random
 from bs4 import BeautifulSoup
 
 '''
