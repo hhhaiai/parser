@@ -10,6 +10,7 @@
 bin/
 gen/
 .settings/
+
 *.pyc
 *MeiZiTu/
 
@@ -24,7 +25,6 @@ proguard/
 *.ipr
 *.iws
 *.idea/
-
 # mac 
 *.DS_Store
 __MACOSX
